@@ -2,6 +2,7 @@
 
 This repository was made to store code from a React challenge, where we had to develop a "To-Do List" application.
 
+I don't know why I am writing this README in english, I just realized the whole app was written in português.
 
 ## Available Scripts
 
