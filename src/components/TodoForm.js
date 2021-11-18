@@ -25,7 +25,7 @@ function TodoForm(props) {
     }
     
     return (
-        <form className='todo-form' onSubmit={handleSubmit}>
+        <form autoComplete='off' className='todo-form' onSubmit={handleSubmit}>
             {props.edit ? (<><input 
               type='text'
               placeholder='Adicione uma Tarefa'
@@ -35,7 +35,7 @@ function TodoForm(props) {
               onChange = {handleChange}
               ref={inputRef}
             />
-            <button className='todo-button'>Adicionar Tarefa</button></>) : (<><input 
+            <button className='todo-button'>Alterar Tarefa</button></>) : (<><input 
                 type='text'
                 placeholder='Adicione uma Tarefa'
                 value = {input} 
@@ -44,7 +44,8 @@ function TodoForm(props) {
                 onChange = {handleChange}
                 ref={inputRef}
               />
-              <button className='todo-button'>Adicionar Tarefa</button></>)}
+              <button className='todo-button'>Adicionar Tarefa</button>
+              </>)}
             
         </form>
     )

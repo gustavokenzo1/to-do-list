@@ -63,12 +63,11 @@ function TodoList() {
                                 </div>
                             <h5>
                                 O plano de fundo irá mudar de acordo com o horário do dia, entre as 6h e 18h ficará um wallpaper de dia e no resto do dia ficará um wallpaper de noite.
-                                Todas as fotos são de uso livre e os créditos estarão no README
                             </h5>
                         </div>
                         <div className='main-form'>
                                 <h1 className='tasks'>Quais os planos para hoje?</h1>
-                                <TodoForm onSubmit={addTodo} />
+                                <TodoForm onSubmit={addTodo}/>
                                 <Todo 
                                 todos={todos}
                                 completeTodo={completeTodo}
