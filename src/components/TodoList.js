@@ -62,7 +62,7 @@ function TodoList() {
                                     <span className='moon' style={{color: darkMode ? '#c96dfd' : 'gray'}}>☽</span>
                                 </div>
                             <h5>
-                                O plano de fundo irá mudar de acordo com o horário do dia, entre as 6h e 18h ficará um wallpaper de dia e no resto do dia ficará um wallpaper de noite.
+                                O plano de fundo irá mudar de acordo com o horário do dia, entre as 6h e 18h ficará um wallpaper de dia e no resto do dia ficará um wallpaper de noite, a fim de melhorar a noção de tempo do usuário.
                             </h5>
                         </div>
                         <div className='main-form'>
